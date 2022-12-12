@@ -1,0 +1,224 @@
+:root {
+    --height-logo: 122px;
+    --width-list-item: 150px;
+  }
+
+.nav{
+    height: 935px;
+    width: 150px;
+    background-color: #191718;
+    position: absolute;
+    z-index: 99;
+}
+.list{
+    color: #AAAAAA;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;  
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    width: var(--width-list-item);
+    height: 44px; 
+    padding-left: 16px;
+    border-bottom: 1px solid #5C5C5C;
+    margin: auto 0;
+}
+.list-item:hover{
+    background-color: #5C5C5C;
+}
+.content{
+    position: absolute;
+    width: 1768px;
+    height: auto;
+    background: #FFFFFF;
+}
+.logo {
+    position: absolute;
+    width: 310px;
+    height: var(--height-logo);
+    background: url(./IMG/logoNCC\ 1.png);
+    text-align: center;
+    margin-top: 20px;
+    left: 50%;
+    z-index: 99;
+}
+.content-title{
+    position: absolute;
+    height: 210px;
+    width: 1510px;
+    top: calc(var(--height-logo) + 30px);
+    background-color: #EFEFEF;
+    left: 50%;
+    transform: translateX(-40%);
+    text-align: center;
+}
+.content-title_header{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 18px;
+
+}
+.content-title_text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: auto 119px;
+
+}
+.content-main{
+    position: relative;
+}
+.content-main_css{
+    position: absolute;
+    height: 252px;
+    width: 470px;
+    left: 280px;
+    top: calc(var(--height-logo) + 240px);
+    border-radius: 0px;
+    margin-top: 40px;
+}
+.header-css{
+    font-family: Roboto;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.img-css{
+    float: left;
+    height: 128px;
+width: 128px;
+left: 279px;
+top: 1406px;
+border-radius: 0px;
+
+}
+.content-text-css > p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.content-text-css::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* html */
+  .content-main_html{
+    position: absolute;
+    height: 252px;
+    width: 470px;
+    left: 779px;
+    top: calc(var(--height-logo) + 240px);
+    border-radius: 0px;
+    margin-top: 40px;
+}
+.header-html{
+    font-family: Roboto;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.img-html{
+    float: left;
+    height: 128px;
+    width: 128px;
+    left: 279px;
+    top: 1406px;
+    border-radius: 0px;
+
+}
+.content-text-html > p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.content-text-html::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+    /* url */
+    .content-main_url{
+        position: absolute;
+        height: 252px;
+        width: 470px;
+        left: 1319px;
+        top: calc(var(--height-logo) + 240px);
+        border-radius: 0px;
+        margin-top: 40px;
+    }
+    .header-url{
+        font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    .img-url{
+        float: left;
+        height: 128px;
+        width: 128px;
+        left: 279px;
+        top: 1406px;
+        border-radius: 0px;
+    
+    }
+    .content-text-url > p{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    }
+    .content-text-url::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+.footer{
+    position: absolute;
+    border-top: 1px solid #DEDEDE;
+    height: 79px;
+    width: 1768px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    bottom: 0;
+    left: 255px;
+    z-index: 99;
+}
+.footer > p {
+    position: absolute;
+    left: 118px
+}
